@@ -21,3 +21,5 @@ use Illuminate\Support\Facades\Route;
 // NomeDelControllore@nome-del-metodo
 Route::get('/', 'HomeController@index');
 
+Route::get('pagina2', 'pagina2Controller@index');
+
