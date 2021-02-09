@@ -10,5 +10,16 @@
 </head>
 <body>
     <h1>HOME</h1>
+    @foreach ($cars as $car)
+    <ul>
+        <li>
+            <h2>{{ $car->model }}</h2>
+            <p>{{ $car->brand }}</p>
+            <p>{{ $car->plate }}</p>
+            <hr>
+        </li>
+    </ul>
+
+    @endforeach
 </body>
 </html>
